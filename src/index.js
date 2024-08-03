@@ -17,7 +17,7 @@ dotenv.config({
 })
 
 
-///-----------------> Connection of Database <----------------
+///-----------------> Connection for Databases <----------------
 
 
 ///---------------- Approach 1 ------------------------
