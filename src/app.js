@@ -17,7 +17,7 @@ app.use(cors({
 app.use(express.json({limit:"16kb"}))
 
 
-////for url data retrieving  //extened=obj inside obj
+////for url data retrieving  //extened= obj inside obj example->google/{%20=?87abd}
 app.use(express.urlencoded({extended:true,limit:"16kb"}))
 
 
@@ -26,7 +26,5 @@ app.use(express.static("public"))
 
 
 //server accepting cookies from user brower and setting cookies from browser (secure cookies)=> 
-
 app.use(cookieParser())
-
 export default app;
